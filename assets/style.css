@@ -1,5 +1,5 @@
 :root {
-    --text-color: #DBE4EF;
+    --text-color: rgb(219, 228, 239);
     --card-front-color: #144480;
     --card-back-color: #00F4BF;
 }
@@ -44,7 +44,6 @@ body {
     font-size: 1vw;
     backface-visibility: hidden;
 }
-
 .cartao__conteudo p {
     margin-top: 1rem;
     padding: 2rem;
@@ -52,7 +51,7 @@ body {
     font-size: 1.4vw;
 }
 
-.cartao__conteudo__pergunta p {
+/*.cartao__conteudo__pergunta p {
     color: var(--text-color);
     font-weight: 500;
 }
@@ -64,6 +63,10 @@ body {
 
 .cartao.active .cartao__conteudo {
     transform: rotateY(180deg);
+}*/
+
+.cartao:hover .cartao__conteudo{
+    transform: rotateY(180deg)
 }
 
 .cartao__conteudo__pergunta,

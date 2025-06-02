@@ -12,7 +12,7 @@ criaCartao(
 
 criaCartao(
     'Biologia',
-    'As aves trocam de pena',
+    'As aves trocam de pena?',
     'Sim, e com uma certa frequência'
 )
 
